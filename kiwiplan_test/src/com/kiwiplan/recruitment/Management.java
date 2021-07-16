@@ -69,7 +69,7 @@ public class Management {
 	   */
 	public void displayManagementTree() {
 		this.sortRelationship();
-	    System.out.println("Print employees:::");
+	    System.out.println("Print ManagementTree:::");
 		System.out.println("============================");
 		this.checkManager("->", this.list.get(this.rootid));
 		System.out.println("============================\n");
